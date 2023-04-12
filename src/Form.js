@@ -13,17 +13,9 @@ export default function Form() {
         <div className="register">
             <div className="col-1">
                 <form id='form' className='flex flex-col' onSubmit={handleSubmit(onSubmit)}>
-                    <h2 className="title">Shipping Details</h2>
+                    <h2 className="title">Request</h2>
+                    <p> We have sent the Request</p>
 
-                    <label className="firstname">FirstName: </label>
-                    <input type="text" placeholder='John' />
-
-                    <label className="lastname">LastName: </label>
-                    <input type="text" placeholder='S' />
-                    <label className="address">Address: </label>
-                    <input type="text" placeholder='Uppsala, Swedan' />
-                    <label className="postalcode">Postal Code</label>
-                    <input type="text" placeholder='123 987' />
                     <button className='btn'>Submit</button>
                 </form>
                 
@@ -39,6 +31,14 @@ export default function Form() {
                 </div>
                 <h5>Total:  2100.00kr </h5>
                 <button className="btn-success">Edit Cart</button>
+                
+                <div className='email-box'>
+                    <h4 class="align"> Sign Up to our Newsletter</h4>
+                    <div className="form-group">
+                        <input name="Your Email" type="email" className="form-control" placeholder="Your Email" />
+                    </div>
+                    <button style={{ backgroundColor:"orange"}}> Sign Up</button> 
+                </div>
 
             </div>
         </div>

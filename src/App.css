@@ -47,34 +47,18 @@ body{
   text-align: left;
 }
 
-#form > .firstname{
-  text-align: left;
-}
-#form > .lastname{
-  text-align: left;
-}
-#form > .address{
-  text-align: left;
-}
-#form > .postalcode{
-  text-align: left;
-}
-
-#form > input:focus{
-  outline: none;
-}
 
 #form > .btn{
   
-  color: orange;
+  color: rgb(177, 126, 31);
   font-size: 1em;
   cursor: pointer;
   position: absolute;
   width: 310px;
   height: 60px;
-  top: 433px;
+  top: 133px;
   background: #D6B27D;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .flex{
@@ -93,12 +77,10 @@ body{
     height: 92px;
     width: 92px;
     border-radius: 32px;
-    top:-550%;
-    bottom: 400%;
-    margin-top: 100px;
-    margin-bottom: 00px;
-
-
+    top: -670px;
+    bottom: -20%;
+    margin-top: -00px;
+    margin-bottom: -00px;
 }
 
 .btn-success{
@@ -137,7 +119,23 @@ body{
   margin: auto;
   padding: 3em 0;
 }
-
+.email-box{
+  height: 250px;
+  width: 900px;
+  margin-left: 220px;
+  text-align: center;
+  left: 0px;
+  top: 0px;
+  margin-top: 400px;
+  border-radius: 56px;
+  border: solid;
+  /* border-radius: 2px;
+   */
+   border-width: 1px;
+  border-color: #FFE5D8;
+  background: #FFE5D8;
+  border: 1px solid #FFE5D8;
+}
 
 
 /*.register .col-2 img{
