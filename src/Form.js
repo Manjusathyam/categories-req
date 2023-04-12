@@ -22,15 +22,17 @@ export default function Form() {
                 <h2>My Cart</h2>
                 <div className="mycart">
                     <img className="product-img" src={image} alt="" />
-                    <h5 className="product-title">"Little Adventure Card"</h5>
-                    <h5 className="price"> "549.00kr"</h5>
+                    <h5 className="product-title">Little Adventure Card</h5>
+                    <h5 className="price">549.00kr</h5>
                     
-                    <img className="product-img" src={image} alt="" />
-                    <h5 className="product-title1">"Stora klatterkortet"</h5>
-                    <h5 className="price"> "1,549.00kr"</h5>
+                    <img className="product-img1" src={image} alt="" />
+                    <h5 className="prod-title1">Stora klatterkortet</h5>
+                    <h5 className="price1">1,549.00kr</h5>
+                    <h5 className="total">Total:  2100.00kr </h5>
+                    <button className="btn-success">Edit Cart</button>
+
                 </div>
-                <h5>Total:  2100.00kr </h5>
-                <button className="btn-success">Edit Cart</button>
+                
                 
                 <div className='email-box'>
                     <h4 class="align"> Sign Up to our Newsletter</h4>
